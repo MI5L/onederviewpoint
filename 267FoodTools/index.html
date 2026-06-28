@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GB267 Staff Resturant Order Recording Home Page</title>
+  <!--bootstrapStylesheetCDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!--fontAwsomeCDN-->
+    <script src="https://kit.fontawesome.com/0bc6475d99.js" crossorigin="anonymous"></script>
+  <!--tabIcon-->
+    <link rel="icon" type="image/png" href="resources/favicon.png">
+  <!--cssStylesheet-->
+    <link rel="stylesheet" href="css/index.css"/>
+  </head>
+  <body>
+    <!--bootstrapJavastripCDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Cotent Below-->
+
+    <header>
+      <!--NavBar-->
+      <div id="nav-placeholder"></div>
+      <script>fetch('nav.html').then(res => res.text()).then(html => document.getElementById('nav-placeholder').innerHTML = html);</script>
+    </header>
+
+    <!--StartButtons-->
+    <section class="jumbotron process py-4">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card text-center">
+              <div class="card-header">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Buffet Request</h5>
+                <p class="card-text">
+                  Please use this tool to order food items for meetings and other internal requisitions
+                </p>
+                <a href="tools/buffetRequest/index.html" class="btn btn-primary">Start</a>
+              </div>
+              <div class="card-footer text-muted">
+
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Site is now launch ready">
+                  v1.0
+                </small>
+
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="You can now select a cost code to pre-fill your form">
+                  v1.1
+                </small>
+
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Working on implementing IKEA Food Products api and new file structure">
+                  WIPv1.2
+                </small>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card text-center">
+              <div class="card-header">
+                <i class="fa-solid fa-calendar-day"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Date Checks</h5>
+                <p class="card-text">
+                  <code> This tool is for IKEA Food co-workers only.</code> It is used to log and view upcoming expiry dates
+                </p>
+                <a href="tools/dateCheck/index.html" class="btn btn-primary">Start</a>
+              </div>
+              <div class="card-footer text-muted">
+                
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Tool is feature complete but requires database integration and testing before launch">
+                  WIPv1.0
+                </small>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card text-center">
+              <div class="card-header">
+                <i class="fa-solid fa-trash"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Digital Non-cx/prep waste Log</h5>
+                <p class="card-text"><code> This tool is for IKEA Food co-workers only.</code>Used to log non-cx/prep waste, damaged and open packeged products</p>
+                <a href="#" class="btn btn-primary">Start</a>
+              </div>
+              <div class="card-footer text-muted">
+                
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Work in progress, no estimated launch date, project not yet started">
+                  WIPv0.0
+                </small>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card text-center">
+              <div class="card-header">
+                <i class="fa-solid fa-flask"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">[Description]</p>
+                <a href="#" class="btn btn-primary">Start</a>
+              </div>
+              <div class="card-footer text-muted">
+                
+                <small
+                  class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Work in progress, no estimated launch date, project not yet started">
+                  WIPv0.0
+                </small>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer style="background-color: #0058a3;">
+      <!--Content-->
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3 text-light">Issue Reporting and Suggestions</h5>
+          <p class="text-light">
+            Please report any issues or provide suggestions for improvement by contacting 
+            <a href="https://teams.microsoft.com/l/channel/19%3AjLEZHvbJs35eJlphuiAmTqayOKT5dz1pIXMXftj57z01%40thread.tacv2/GB267%20Digi%20Food%20Tools?groupId=247bca0d-e575-4abf-bb9d-a3adec66a468&tenantId=720b637a-655a-40cf-816a-f22f40755c2c&ngc=true&allowXTenantAccess=true" 
+            class="text-light">sohail.irfan@ingka.ikea.com</a>
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  </body>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.forEach(function (el) {
+      new bootstrap.Tooltip(el);
+    });
+  });
+  </script>
+
+  <!--bootstrapJavascriptCDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>

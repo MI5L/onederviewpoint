@@ -44,16 +44,16 @@
     <div class="p-5 bg-dark-subtle border border-secondary shadow-sm bg-body-tertiary">
       <div class="col-lg-12 pb-3">
 
-        <h1>Please enter your credentials to use IFTools</h1>
+        <h1>Please enter your credentials to use I.F.Tools</h1>
       </div>
 
     <!--Login Form-->
-    <div class="bg-dark-subtle text-secondary border border-secondary shadow-sm bg-body-tertiary">
+    <div class="border border-secondary bg-body-tertiary">
 
-        <form class="" method="POST" action="db/dblogin.php">
-              <div class="container">
+        <form class="p-3 m-5" method="POST" action="db/dblogin.php">
+              <div class="container col-lg-12">
 
-                <div class="input-group">
+                <div class="input-group mb-5">
                   <span class="input-group-text"><i class="bi bi-person"></i></span>
                   <div class="form-floating">
                     <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
@@ -61,7 +61,7 @@
                   </div>
                 </div>
 
-                <div class="input-group">
+                <div class="input-group mb-5">
                   <span class="input-group-text"><i class="bi bi-three-dots"></i></span>
                   <div class="form-floating">
                     <input type="password" class="form-control" id="floatingInputGroup2" placeholder="Password">
@@ -69,7 +69,10 @@
                   </div>
                 </div>
                 
-                  <button type="submit" name="click-login" class="btn btn-outline-success float-right" data-toggle="tooltip" title="Log In"><i class="bi bi-unlock"></i></button>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" name="click-login" class="btn btn-success col-lg-6" style="font-size: 1.5rem;" data-bs-toggle="tooltip" title="Log In"><i class="bi bi-unlock"></i></button>
+                </div>
+
               </div>
             </form>
 
@@ -90,8 +93,8 @@
           <!-- Email with copy button -->
           <script src="js/jscopy.js"></script>
           <div class="col-md input-group">
-            <button class="btn btn-light" type="button" onclick="jsCopy()" title="Copy email address"><i class="bi bi-envelope-at"></i></button>
-            <input type="text" class="form-control" value="hello@onederviewpoint.com" id="emailCopy" readonly>
+            <button class="btn btn-light" type="button" onclick="jsCopy()" title="Copy email address"><i class="bi bi-envelope-at-fill"></i></button>
+            <input type="text" class="form-control" value="contact currently unavailable" id="emailCopy" readonly><!--hello@onederviewpoint.com-->
           </div>
 
         </div>

@@ -1,12 +1,12 @@
 <?php
    include("dbconnect.php");
-   //session_start();
+   session_start();
 
    if($_SERVER["REQUEST_METHOD"] == "POST") {
 		 $username = ($_POST["username"]);
 		 $password = ($_POST["password"]);
 
-      $sql = "SELECT * FROM logininfo WHERE username = '$username' and password = '$password'";
+      $sql = "SELECT * FROM login WHERE username = '$username' and password = '$password'";
     	$result = mysqli_query($conn, $sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $active = $row['active'];
@@ -16,7 +16,7 @@
 
 			if($count == 1){
 
-        header("location: ../accountpages/adminaccountpage.php");
+        header("location: ../267FoodTools/index.html");
 
         //$sql = "SELECT access_code FROM logininfo";
       	//$result = mysqli_query($conn, $sql);
